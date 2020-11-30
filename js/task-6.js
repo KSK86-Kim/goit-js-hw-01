@@ -2,7 +2,7 @@ let input;
 let total = 0;
 
 do {
-  input = prompt("Enter a number");
+  input = prompt("Пожалуйста введите число");
   if (isNaN(input)) {
     alert("Было введено не число, попробуйте еще раз");
   } else {
